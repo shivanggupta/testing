@@ -56,6 +56,9 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        .navbar {
+            height:5%;
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -98,6 +101,9 @@ main_page_content = '''
           </a>
           <div class="scale-media" id="trailer-video-container">
           </div>
+          <div class="modal-body">
+        <p>Populate alternative movie content here.</p>
+      </div>
         </div>
       </div>
     </div>
